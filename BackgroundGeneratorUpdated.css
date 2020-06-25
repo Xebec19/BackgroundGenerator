@@ -1,0 +1,11 @@
+body{
+	margin: 0 auto;
+	background: linear-gradient(to right,blue,green);
+}
+.center
+{
+	text-align: center;
+}
+.center > h1 h2 input button h3 {
+	display: inline-block;
+}
