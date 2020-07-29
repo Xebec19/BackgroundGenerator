@@ -1,0 +1,23 @@
+{
+  "name": "background-generator-using-javascript-updated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BackgroundGeneratorUpdated.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xebec19/Background-Generator-using-JavaScript-Updated.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xebec19/Background-Generator-using-JavaScript-Updated/issues"
+  },
+  "homepage": "https://github.com/Xebec19/Background-Generator-using-JavaScript-Updated#readme",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "lodash": "^4.17.19"
+  }
+}
