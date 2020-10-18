@@ -5,15 +5,16 @@ console.log('answer:',_.without(array, 3));
 var color1=document.querySelector(".colr1");
 var color2=document.querySelector(".colr2");
 var body=document.querySelector(".grad");
-var h3=document.getElementsByTagName("h3");
+//var h3=document.getElementsByTagName("h3");
 var btnrd=document.querySelector("#random");
+var output = document.querySelector('#output')
 function setGradient(){
 	body.style.background=
 	"linear-gradient(to right,"
 	+color1.value+
 	","
 	+color2.value+")";
-	h3.textContent= body.style.background+";";
+	output.innerHTML = ''+color1.value+' & '+color2.value; 
 
 	
 	}
@@ -28,7 +29,9 @@ btnrd.addEventListener("click",item => {
 	color1.value="#"+randomize();
 	color2.value="#"+randomize();
 	setGradient();
+
 })
+
 
 },{"lodash":2}],2:[function(require,module,exports){
 (function (global){
